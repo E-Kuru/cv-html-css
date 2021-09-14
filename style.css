@@ -188,6 +188,37 @@ header nav a:hover {
 
 /* FOOTER */
 
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #066ab2;
+  height: 25vh;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
+
+footer #footer-bloc {
+  margin-left: 2%;
+  color: white;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-bloc div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
 @media screen and (max-width: 600px) {
   p {
     font-size: 12px;
