@@ -64,3 +64,27 @@ header nav a {
 }
 
 /* Présentation  */
+
+.presentation {
+  background-color: #066ab2;
+  height: 35vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.presentation div {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  line-height: 25px;
+}
+.presentation ul {
+  list-style: square;
+}
+
+/* EXPERIENCES-PRO */
